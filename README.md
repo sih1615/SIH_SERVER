@@ -69,11 +69,7 @@ MONGO_URI=mongodb+srv://M133:testm133@sih1615dev.r2kkp.mongodb.net
 </ol>
 
 <h2 id="environment-variables">Environment Variables</h2>
-<p>The following environment variables need to be configured in your <code>.env</code> file:</p>
-<ul>
-  <li><code>PORT</code>: The port number on which the server listens.</li>
-  <li><code>MONGO_URI</code>: Connection string for the MongoDB database.</li>
-</ul>
+<p>The following environment variables need to be configured in your <code>.env</code> file</p>
 
 <h2 id="contributing">Contributing</h2>
 <p>Please follow these steps to contribute:</p>
