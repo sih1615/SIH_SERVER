@@ -58,14 +58,14 @@ cd SIH_SERVER
 <ol>
   <li>Set up environment variables by creating a <code>.env</code> file in the root directory. The required variables may include:</li>
   <pre><code>PORT=3000
-MONGO_URI=mongodb://localhost:27017/sih_server
+MONGO_URI=mongodb+srv://M133:testm133@sih1615dev.r2kkp.mongodb.net
   </code></pre>
 
   <li>Start the server:</li>
   <pre><code>npm start
   </code></pre>
 
-  <p>The server will start running at <code>mongodb+srv://M133:testm133@sih1615dev.r2kkp.mongodb.net/</code>.</p>
+  <p>The server will start running at <code>http://localhost:3000</code>.</p>
 </ol>
 
 <h2 id="environment-variables">Environment Variables</h2>
