@@ -65,14 +65,14 @@ MONGO_URI=mongodb://localhost:27017/sih_server
   <pre><code>npm start
   </code></pre>
 
-  <p>The server will start running at <code>http://localhost:3000</code>.</p>
+  <p>The server will start running at <code>mongodb+srv://M133:testm133@sih1615dev.r2kkp.mongodb.net/</code>.</p>
 </ol>
 
 <h2 id="environment-variables">Environment Variables</h2>
 <p>The following environment variables need to be configured in your <code>.env</code> file:</p>
 <ul>
   <li><code>PORT</code>: The port number on which the server listens.</li>
-  <li><code>MONGO_URL</code>: Connection string for the MongoDB database.</li>
+  <li><code>MONGO_URI</code>: Connection string for the MongoDB database.</li>
 </ul>
 
 <h2 id="contributing">Contributing</h2>
