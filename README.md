@@ -13,7 +13,7 @@ A Node.js-based server application for backend. This project uses JavaScript and
 </ul>
 
 <h2 id="project-overview">Project Overview</h2>
-<p>SIH_SERVER is a briefly description the purpose of the server, a backend server to manage API requests and handle data storage for the Smart Learning path and Dashboard System. It is built using <strong>Node.js</strong> and utilizes various packages to provide a smooth and secure experience for managing server-side operations.</p>
+<p>SIH_SERVER is a backend server to manage API requests and handle data storage for the Smart Learning path and Dashboard System. It is built using <strong>Node.js</strong> and utilizes various packages to provide a smooth and secure experience for managing server-side operations.</p>
 
 <h2>Files</h2>
 <ul>
