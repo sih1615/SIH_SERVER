@@ -80,8 +80,8 @@ MONGO_URI=mongodb+srv://M133:testm133@sih1615dev.r2kkp.mongodb.net
 <ol>
   <li>Fork this repository.</li>
   <li>Link the local repository to the remote one on GitHub (<code>git remote add origin https://github.com/sih1615/SIH_SERVER.git</code>).</li>
-  <li>Ensure the local branch is named "main" (<code>git branch -M main</code>).</li>
+  <li>Ensure the local branch is named "main" (<code>git branch -M master</code>).</li>
   <li>Commit your changes (<code>git commit -m 'Add some feature'</code>).</li>
-  <li>Push the changes to the remote repository (<code>git push -u origin main</code>).</li>
+  <li>Push the changes to the remote repository (<code>git push -u origin master</code>).</li>
   <li>Create a Pull Request.</li>
 </ol>
