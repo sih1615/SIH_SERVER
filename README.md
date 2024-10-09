@@ -1,6 +1,6 @@
 <h1>SIH_SERVER</h1>
 
-A Node.js-based server application for backend. This project uses JavaScript and includes the following key components.
+A Node.js-based server application for the backend. This project uses JavaScript and includes the following key components.
 
 <h2>Table of Contents</h2>
 <ul>
@@ -13,7 +13,7 @@ A Node.js-based server application for backend. This project uses JavaScript and
 </ul>
 
 <h2 id="project-overview">Project Overview</h2>
-<p>SIH_SERVER is a backend server to manage API requests and handle data storage for the Smart Learning path and Dashboard System. It is built using <strong>Node.js</strong> and utilizes various packages to provide a smooth and secure experience for managing server-side operations.</p>
+<p>SIH_SERVER is a backend server to manage API requests and handle data storage for the Smart Learning Path and Dashboard System. It is built using <strong>Node.js</strong> and utilizes various packages to provide a smooth and secure experience for managing server-side operations.</p>
 
 <h2>Files</h2>
 <ul>
@@ -58,7 +58,7 @@ cd SIH_SERVER
 <ol>
   <li>Set up environment variables by creating a <code>.env</code> file in the root directory. The required variables may include:</li>
   <pre><code>PORT=3000
-MONGO_URL=mongodb://localhost:27017/sih_server
+MONGO_URI=mongodb://localhost:27017/sih_server
   </code></pre>
 
   <li>Start the server:</li>
@@ -72,16 +72,16 @@ MONGO_URL=mongodb://localhost:27017/sih_server
 <p>The following environment variables need to be configured in your <code>.env</code> file:</p>
 <ul>
   <li><code>PORT</code>: The port number on which the server listens.</li>
-  <li><code>MONRO_URL</code>: Connection string for the MongoDB database.</li>
+  <li><code>MONGO_URL</code>: Connection string for the MongoDB database.</li>
 </ul>
 
 <h2 id="contributing">Contributing</h2>
 <p>Please follow these steps to contribute:</p>
 <ol>
   <li>Fork this repository.</li>
-  <li>Links the local repository to the remote one on GitHub :(<code>git remote add origin https://github.com/sih1615/SIH_SERVER.git</code>).</li>
-  <li>Ensures the local branch is named "main." :(<code>git branch -M main</code>).</li>
-  <li>Commit your changes :(<code>git commit -m 'Add some feature'</code>).</li>
-  <li>Pushes the changes to the remote repository :(<code>git push -u origin main</code>).</li>
+  <li>Link the local repository to the remote one on GitHub (<code>git remote add origin https://github.com/sih1615/SIH_SERVER.git</code>).</li>
+  <li>Ensure the local branch is named "main" (<code>git branch -M main</code>).</li>
+  <li>Commit your changes (<code>git commit -m 'Add some feature'</code>).</li>
+  <li>Push the changes to the remote repository (<code>git push -u origin main</code>).</li>
   <li>Create a Pull Request.</li>
 </ol>
