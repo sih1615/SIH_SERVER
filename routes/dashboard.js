@@ -18,15 +18,4 @@ router.post('/streak-update', (req, res) => {
     res.send('Streak updated');
 });
 
-//some other functions we might use (change function name later)
-// Route for function 1 
-router.get('/function1', (req, res) => {
-    res.send('Function 1 executed');
-});
-
-// Route for function 2 
-router.get('/function2', (req, res) => {
-    res.send('Function 2 executed');
-});
-
 module.exports = router;
